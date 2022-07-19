@@ -1,3 +1,7 @@
 export default function Home() {
-  return 'Início'
+  return (
+    <>
+      <h1>Teste</h1>
+    </>
+  )
 }
