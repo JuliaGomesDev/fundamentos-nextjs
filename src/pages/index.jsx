@@ -1,7 +1,10 @@
+import Layout from '../components/layout/Layout'
+import Link from 'next/link'
+
 export default function Home() {
   return (
-    <>
-      <h1>Teste</h1>
-    </>
+    <Link href="/exemplo">
+      <h1>Exemplo</h1>
+    </Link>
   )
 }
