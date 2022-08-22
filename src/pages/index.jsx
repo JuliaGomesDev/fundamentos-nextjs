@@ -31,6 +31,11 @@ export default function Home() {
         destino="/estado"
         color="#fb6376"
       ></Navigator>
+      <Navigator
+        titulo="Integração com API #01"
+        destino="/integracao_1"
+        color="#3fae3f"
+      ></Navigator>
     </div>
   )
 }
